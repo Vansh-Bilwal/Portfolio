@@ -7,7 +7,7 @@ import { VscFolderLibrary } from 'react-icons/vsc';
 import ME from './../../assets/Vansh22.jpg';
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='section'>
       <h5>Who am I?</h5>
       <h2>About Me</h2>
       <div className='container about__container'>
@@ -50,10 +50,11 @@ const About = () => {
             </article>
           </div>
           <p className='about__me__para'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            cupiditate, ex necessitatibus ut doloribus sunt officia possimus
-            deleniti modi dolor amet, praesentium exercitationem nihil facilis
-            repellat eos ab esse et.
+            Hi, my name is Vansh Bilwal. I am a third year student pursuing my
+            B-Tech from Netaji Subhas University of technology in the department
+            of COmputer Science and Engineering. I am a MERN stack developer
+            with addition knowledge of HTML,CSS,Bootstrap and C++ programming. I
+            am also a 4* coder at Codechef and a pupil at Codeforces.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk

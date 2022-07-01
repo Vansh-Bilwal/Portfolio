@@ -5,14 +5,19 @@ import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
 import { FaFileCode } from 'react-icons/fa';
 import { AiOutlineMessage } from 'react-icons/ai';
+import Scrollspy from 'react-scrollspy';
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
-    <nav>
+    <Scrollspy
+      className='nav'
+      items={['header', 'about', 'experience', 'portfolio', 'contact']}
+      currentClassName='active'
+    >
       <a
-        href='#'
-        className={activeNav == '#' ? 'active' : ''}
-        onClick={() => setActiveNav('#')}
+        href='#header'
+        className={activeNav == 'header' ? 'active' : ''}
+        onClick={() => setActiveNav('#header')}
       >
         <AiOutlineHome />
       </a>
@@ -44,7 +49,7 @@ const Nav = () => {
       >
         <AiOutlineMessage />
       </a>
-    </nav>
+    </Scrollspy>
   );
 };
 

@@ -35,7 +35,7 @@ const data = [
 ];
 const Testimonials = () => {
   return (
-    <section id='testimonials'>
+    <section id='testimonials' className='section'>
       <h5>What Other's Say</h5>
       <h2>Testimonials</h2>
       <Swiper
