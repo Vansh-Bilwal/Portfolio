@@ -12,7 +12,7 @@ const data = [
     image: IMG1,
     title: 'Social Media for Developers',
     github: 'https://github.com/Vansh-Bilwal/Dev-s_Social_Media',
-    demo: 'https://fierce-savannah-61881.herokuapp.com/',
+    demo: 'https://developersconnect.onrender.com/',
     overlayText: 'React|Redux|Express|MongoDB',
     complete: true,
   },
